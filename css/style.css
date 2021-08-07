@@ -319,7 +319,24 @@ h2 b {
 }
 
 
-
+@media (min-width: 1200px) {
+    .row-6 h1 {
+        margin: 0px auto;
+        padding-top: 70px;
+        padding-bottom: 30px;
+        width: 730px;
+        height: 90px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .row-6 .col-1{
+        width: 90%;
+    }
+}
 
 @media (max-width: 1199px) {
     .row-1 {
